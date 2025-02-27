@@ -16,7 +16,7 @@
 
 <template>
         <div class="PreviewContainer">
-            <img v-bind:src="'./src/assets/ImgProjects/' + preview_src + '.jpg'" alt="" class="imgProject">
+            <img v-bind:src="'../src/assets/ImgProjects/' + preview_src + '.jpg'" alt="" class="imgProject">
             <ViewButton class="Hidden-Button" @click="notifyParent_ToShowModal"/>
         </div>
 </template>
