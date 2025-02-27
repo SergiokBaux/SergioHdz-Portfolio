@@ -33,7 +33,7 @@
     .imgProject
     {
         height: auto;
-        width: 100px;
+        width: 100%;
         object-fit: cover;
         border: 1px solid var(--sergio-white);
         transition: all 0.6s ease; /* Duración de 0.5s y suavidad con 'ease' */
