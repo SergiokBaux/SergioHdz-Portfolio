@@ -13,7 +13,7 @@ const props = defineProps({
 
 <template>
     <a :href="link" class="Container">
-        <img v-bind:src="'./src/assets/' + social_network + '.SVG'" alt="" class="Social_Media_img">
+        <img v-bind:src="'src/assets/' + social_network + '.SVG'" alt="" class="Social_Media_img">
         <div class="Label">{{social_network}}</div>
     </a>
 </template>
