@@ -1,0 +1,113 @@
+:root
+{
+  --sergio-white: #FFF7F1;
+  --sergio-black: #030303;
+
+  --sergio-blue_10: #f5f3f1;
+  --sergio-blue_20: #d6e7ef;
+  --sergio-blue_30: #AED6ED;
+  --sergio-blue_40: #85C6EC;
+  --sergio-blue_50: #5DB5EA;
+  --sergio-blue_60: #34A5E8;
+  --sergio-blue_70: #2A85BA;
+  --sergio-blue_80: #20648C;
+  --sergio-blue_90: #17445F;
+  --sergio-blue_100: #0D2331;
+  --sergio-blue_110: #050b0e;
+
+  --sergio-pink_10: #FFF1EE;
+  --sergio-pink_20: #FFDFE7;
+  --sergio-pink_30: #FFC7DD;
+  --sergio-pink_40: #FFAED2;
+  --sergio-pink_50: #FF96C8;
+  --sergio-pink_60: #FF7EBE;
+  --sergio-pink_70: #CD6599;
+  --sergio-pink_80: #9A4D73;
+  --sergio-pink_90: #68344E;
+  --sergio-pink_100: #351C28;
+  --sergio-pink_110: #0d080a;
+
+  --sergio-gray_10: #FFF7F1;
+  --sergio-gray_20: #E6DFD9;
+  --sergio-gray_30: #CDC6C1;
+  --sergio-gray_40: #B3AEAA;
+  --sergio-gray_50: #9A9592;
+  --sergio-gray_60: #817D7A;
+  --sergio-gray_70: #686562;
+  --sergio-gray_80: #4F4C4A;
+  --sergio-gray_90: #353433;
+  --sergio-gray_100: #1C1B1B;
+  --sergio-gray_110: #030303;
+
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+    
+background-color: var(--sergio-blue_110);
+  /**
+      background-image: radial-gradient(at 0.9216141660618016% 90.55860762549412%, hsla(0, 0%, 0.39215686274509803%, 1) 0%, hsla(0, 0%, 0.39215686274509803%, 0) 100%), radial-gradient(at 3.7976658001203756% 5.231600021209926%, hsla(240, 38.235294117647065%, 13.333333333333334%, 1) 0%, hsla(240, 38.235294117647065%, 13.333333333333334%, 0) 100%), radial-gradient(at 6.650695155706354% 85.22904224671592%, hsla(349.3117408906882, 100%, 51.56862745098039%, 1) 0%, hsla(349.3117408906882, 100%, 51.56862745098039%, 0) 100%), radial-gradient(at 78.56095033989973% 17.629563454513487%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 1) 0%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 0) 100%), radial-gradient(at 44.92458827289882% 42.40852329257122%, hsla(0, 0%, 0.39215686274509803%, 1) 0%, hsla(0, 0%, 0.39215686274509803%, 0) 100%), radial-gradient(at 11.281134719000462% 13.85123876922555%, hsla(240, 38.235294117647065%, 13.333333333333334%, 1) 0%, hsla(240, 38.235294117647065%, 13.333333333333334%, 0) 100%), radial-gradient(at 22.111502383525984% 65.40252495382263%, hsla(349.3117408906882, 100%, 51.56862745098039%, 1) 0%, hsla(349.3117408906882, 100%, 51.56862745098039%, 0) 100%), radial-gradient(at 41.29347938434207% 83.19086452040388%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 1) 0%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 0) 100%), radial-gradient(at 8.820841326957785% 46.23851430837659%, hsla(0, 0%, 0.39215686274509803%, 1) 0%, hsla(0, 0%, 0.39215686274509803%, 0) 100%), radial-gradient(at 83.82332216483084% 1.2584667380540648%, hsla(240, 38.235294117647065%, 13.333333333333334%, 1) 0%, hsla(240, 38.235294117647065%, 13.333333333333334%, 0) 100%), radial-gradient(at 53.14013459468886% 86.41727300540882%, hsla(349.3117408906882, 100%, 51.56862745098039%, 1) 0%, hsla(349.3117408906882, 100%, 51.56862745098039%, 0) 100%), radial-gradient(at 21.931704342429782% 12.751636030914348%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 1) 0%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 0) 100%);
+
+  /** 
+  **/
+  }
+@media only screen and (min-width: 800px)
+{
+  html
+  {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 8px 32px 8px 32px;
+    box-sizing: border-box;
+  }
+  
+  body
+  {
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+  }
+  
+} 
+@media only screen and (max-width: 800px)
+{
+  :root {
+  
+    padding: 8px 16px 8px 16px;
+  
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    /**
+    background-image: radial-gradient(at 4.738806226701642% 51.69069265831027%, hsla(0, 0%, 0.39215686274509803%, 1) 0%, hsla(0, 0%, 0.39215686274509803%, 0) 100%), radial-gradient(at 24.041266372332025% 68.2073652898507%, hsla(240, 38.235294117647065%, 13.333333333333334%, 1) 0%, hsla(240, 38.235294117647065%, 13.333333333333334%, 0) 100%), radial-gradient(at 73.48528623233955% 51.09343857421109%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 1) 0%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 0) 100%), radial-gradient(at 29.562817217196923% 26.383674709133853%, hsla(339.1489361702128, 59.493670886075954%, 46.470588235294116%, 1) 0%, hsla(339.1489361702128, 59.493670886075954%, 46.470588235294116%, 0) 100%), radial-gradient(at 25.89318395389103% 16.480166607309798%, hsla(0, 0%, 0.39215686274509803%, 1) 0%, hsla(0, 0%, 0.39215686274509803%, 0) 100%), radial-gradient(at 55.17351875826115% 74.23684141341789%, hsla(240, 38.235294117647065%, 13.333333333333334%, 1) 0%, hsla(240, 38.235294117647065%, 13.333333333333334%, 0) 100%), radial-gradient(at 77.05975559226708% 63.33109793529636%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 1) 0%, hsla(187.00000000000003, 95.74468085106382%, 36.86274509803922%, 0) 100%), radial-gradient(at 65.71287912298422% 86.14050685803942%, hsla(339.1489361702128, 59.493670886075954%, 46.470588235294116%, 1) 0%, hsla(339.1489361702128, 59.493670886075954%, 46.470588235294116%, 0) 100%), radial-gradient(at 11.646584528776438% 87.45296236149693%, hsla(0, 0%, 0.39215686274509803%, 1) 0%, hsla(0, 0%, 0.39215686274509803%, 0) 100%);    font-synthesis: none;
+    **/
+    background-color: var(--sergio-blue_110);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html{
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+  }
+  
+}
+  
