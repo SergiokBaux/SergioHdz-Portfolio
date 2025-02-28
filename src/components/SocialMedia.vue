@@ -9,11 +9,16 @@ const props = defineProps({
         required: true
     }
 });
+
+const getImageUrl = (imageName) => {
+        return new URL(`../../public/icons/${imageName}.svg`, import.meta.url).href;
+    };
+
 </script>
 
 <template>
     <a :href="link" class="Container">
-        <img v-bind:src="'../src/assets/' + social_network + '.svg'" alt="" class="Social_Media_img">
+        <img :src="getImageUrl(social_network)" class="Social_Media_img">
         <div class="Label">{{social_network}}</div>
     </a>
 </template>

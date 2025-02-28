@@ -28,6 +28,11 @@ const emit = defineEmits(["close"]);
 const close = () =>{
     emit("close");
 };
+
+const getImageUrl = (imageName) => {
+    return new URL(`../assets/ImgProjects/${imageName}.jpg`, import.meta.url).href;
+};
+
 </script>
 
 <template>
@@ -45,7 +50,7 @@ const close = () =>{
 
             <div class="Image_Container">
                 <!---imagen--->
-                <img v-bind:src="'/src/assets/ImgProjects/' + project_picture + '.jpg'" alt="" class="Project_Picture">
+                <img :src="getImageUrl(project_picture)" class="Project_Picture">
             </div>
             <div class="Paragraph_Container">
                 <!---parrafo--->

@@ -12,11 +12,15 @@
     const notifyParent_ToShowModal = () => {
         emit("receiveMessage", 'true'); // Enviar un mensaje al padre
     };
+
+    const getImageUrl = (imageName) => {
+        return new URL(`../assets/ImgProjects/${imageName}.jpg`, import.meta.url).href;
+    };
 </script>
 
 <template>
         <div class="PreviewContainer">
-            <img v-bind:src="'../src/assets/ImgProjects/' + preview_src + '.jpg'" alt="" class="imgProject">
+            <img :src="getImageUrl(preview_src)" alt="" class="imgProject">
             <ViewButton class="Hidden-Button" @click="notifyParent_ToShowModal"/>
         </div>
 </template>
